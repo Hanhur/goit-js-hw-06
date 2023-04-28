@@ -28,8 +28,6 @@ buttonCreate.addEventListener('click', () => {
     boxes.append(...boxesToAdd);
 });
 
-console.log(inputNumbers.value);
-
 buttonDestroy.addEventListener('click', () => {
     destroyBoxes.call();
 });
